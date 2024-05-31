@@ -5,28 +5,50 @@
 
 .navigation {
     display: flex;
+    flex: 1;
 }
 
 .navigation div {
-    flex: 1;
+    
     display: flex;
+    flex: 1;
     height: 40px;
     justify-content: center;
     align-items: center;
-}
-
-.header_logo {
-    
 }
 
 .header_links {
     flex: 1;
 }
 
-.hl_item {
-    
+.hero {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    height: 300px;
 }
 
-.hero {
-    flex
+.hero > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    align-items:flex-start;
+}
+
+.hero_content {
+    height: auto;
+    width: 300px;
+    justify-content: right;
+    margin-left: auto;
+    margin: right 40px;
+}
+
+.hero_image {
+    height: auto;
+    width: 200px;
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+    align-items: center;
 }
