@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation div {
+    flex: 1;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_logo {
+    
+}
+
+.header_links {
+    flex: 1;
+}
+
+.hl_item {
+    
+}
+
+.hero {
+    flex
+}
